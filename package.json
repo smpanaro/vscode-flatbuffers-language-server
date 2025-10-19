@@ -1,8 +1,13 @@
 {
   "name": "flatbuffers-language-server",
+  "version": "0.0.1",
   "displayName": "FlatBuffers Language Server",
   "description": "Go-to-definition, autocomplete and more for FlatBuffers schema files.",
-  "version": "0.0.1",
+  "publisher": "smpanaro",
+  "repository": {
+    "url": "https://github.com/smpanaro/vscode-flatbuffers-language-server.git",
+    "type": "git"
+  },
   "engines": {
     "vscode": "^1.104.0"
   },
