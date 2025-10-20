@@ -12,7 +12,7 @@
     "vscode": "^1.104.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
   ],
   "activationEvents": [
     "onLanguage:flatbuffers"

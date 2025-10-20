@@ -1,0 +1,9 @@
+# Ignore everything.
+**
+
+# Unignore some things.
+!dist/*
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE.md

@@ -1,8 +1,8 @@
 # vscode-flatbuffers-language-server
 
-[VSCode](https://code.visualstudio.com) editor extension to add language server features for [FlatBuffers](https://flatbuffers.dev).
+[VSCode](https://code.visualstudio.com) editor extension to add language server features for [FlatBuffers](https://flatbuffers.dev). Powered by [flatbuffers-language-server](https://github.com/smpanaro/flatbuffers-language-server).
 
-<img width="1028" alt="screenshot of a flatbuffer file in zed" src="https://github.com/user-attachments/assets/6c098c96-bb4e-48b2-9d40-a8c0fa14cc4d" />
+<img width="1028" alt="screenshot of a flatbuffer file in vscode" src="https://github.com/smpanaro/vscode-flatbuffers-language-server/raw/HEAD/images/hover.png" />
 
 ## Features
 
