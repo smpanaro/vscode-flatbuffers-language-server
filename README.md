@@ -1,5 +1,8 @@
 # vscode-flatbuffers-language-server
 
+![VSCode Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/smpanaro.flatbuffers-language-server?label=vscode%20marketplace)
+
+
 [VSCode](https://code.visualstudio.com) editor extension to add language server features for [FlatBuffers](https://flatbuffers.dev). Powered by [flatbuffers-language-server](https://github.com/smpanaro/flatbuffers-language-server).
 
 <img width="1028" alt="screenshot of a flatbuffer file in vscode" src="https://github.com/smpanaro/vscode-flatbuffers-language-server/raw/HEAD/images/hover.png" />
@@ -12,6 +15,10 @@
 - Real `flatc` errors and warnings in your editor.
 - Quick fixes for some errors.
 - Rename custom types across files.
+
+## Install
+
+On the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=smpanaro.flatbuffers-language-server).
 
 ## Requirements
 
