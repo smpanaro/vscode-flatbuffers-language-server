@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## Unreleased
 
+## 0.0.2
+
+Add an icon for the marketplace.
+Prevent from running in untrusted workspaces.
+
 ## 0.0.1
 
 Initial release:

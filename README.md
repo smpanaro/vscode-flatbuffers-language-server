@@ -22,7 +22,7 @@ On the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=
 
 ## Requirements
 
-You must install a separate extension to provide FlatBuffers syntax highlighting. [This one](https://marketplace.visualstudio.com/items?itemName=floxay.vscode-flatbuffers) works.
+You'll need to install a separate extension for FlatBuffers syntax highlighting. [This one](https://marketplace.visualstudio.com/items?itemName=floxay.vscode-flatbuffers) works.
 
 ## Extension Settings
 

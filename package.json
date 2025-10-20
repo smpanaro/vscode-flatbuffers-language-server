@@ -1,8 +1,14 @@
 {
   "name": "flatbuffers-language-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "displayName": "FlatBuffers Language Server",
   "description": "Go-to-definition, autocomplete and more for FlatBuffers schema files.",
+  "icon": "images/icon.png",
+  "keywords": [
+    "flatbuffers",
+    "flatbuffer",
+    "fbs"
+  ],
   "publisher": "smpanaro",
   "repository": {
     "url": "https://github.com/smpanaro/vscode-flatbuffers-language-server.git",
@@ -14,6 +20,12 @@
   "categories": [
     "Programming Languages"
   ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false,
+      "description": "This extension runs a language server binary configured in settings. A malicious actor could exploit this to run arbitrary code on your machine."
+    }
+  },
   "activationEvents": [
     "onLanguage:flatbuffers"
   ],
@@ -38,7 +50,7 @@
       "title": "FlatBuffers Language Server",
       "properties": {
         "flatbuffers.languageServer.path": {
-          "type":"string",
+          "type": "string",
           "default": null,
           "markdownDescription": "Path to a flatbuffers-language-server binary. Download the latest release [here](https://github.com/smpanaro/flatbuffers-language-server/releases). This overrides any binaries found in the system PATH or managed by the extension (see [Auto Download](#flatbuffers.languageServer.autoDownload))."
         },
